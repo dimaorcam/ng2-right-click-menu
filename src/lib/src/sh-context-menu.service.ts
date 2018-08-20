@@ -5,8 +5,8 @@ import {TemplatePortal} from '@angular/cdk/portal';
 import {ConnectedPositionStrategy} from '@angular/cdk/overlay/typings/position/connected-position-strategy';
 import {ShContextMenuEvent, ShContextSubMenuEvent} from './sh-context-menu.models';
 import {OverlayRef} from '@angular/cdk/overlay';
-import {fromEvent} from 'rxjs/observable/fromEvent';
-import {Subscription} from 'rxjs/Subscription';
+import {fromEvent} from 'rxjs';
+import {Subscription} from 'rxjs';
 
 @Injectable()
 export class ShContextMenuService implements OnDestroy {

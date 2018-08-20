@@ -1,9 +1,9 @@
 import {Directive, ElementRef, Input, OnDestroy, OnInit} from '@angular/core';
 import {ShContextMenuService} from './sh-context-menu.service';
 import {ShContextMenuComponent} from './sh-context-menu.component';
-import {Subscription} from 'rxjs/Subscription';
-import {fromEvent} from 'rxjs/observable/fromEvent';
-import {merge} from 'rxjs/observable/merge';
+import {Subscription} from 'rxjs';
+import {fromEvent} from 'rxjs';
+import {merge} from 'rxjs';
 
 @Directive({
   selector: '[shAttachMenu]'
